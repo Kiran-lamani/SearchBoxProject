@@ -25,7 +25,7 @@ public class TestSprint {
 	@When("user open the url{string}")
 	public void user_open_the_url(String url) throws Exception {
 		driver.get("http://demowebshop.tricentis.com/");
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 	}
 
 	@When("user click on log in button")
